@@ -1,0 +1,60 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/image/Layer_20.png');
+    background-size: cover;
+}
+
+.header {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 41px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    text-align: center;
+    box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
+    font-style: italic;
+    margin: 35px 0px 0px 130px;
+}
+
+.navbar {
+    width: 450px;
+    margin: 35px 35px 0px 0px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    display: block;
+    width: 150px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-align: center;
+    line-height: 41px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.video {
+    display: block;
+    width: 549px;
+    height: 327px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.75);
+    background-color: #efdc8f;
+    letter-spacing: 0px;
+    margin: 150px 0px 0px -1225px;
+
+ 
+}
